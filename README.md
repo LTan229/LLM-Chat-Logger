@@ -6,8 +6,6 @@
 
 **LLM Chat Logger** is a userscript that runs in your browser via Tampermonkey. It automatically records your prompts sent to LLM platforms (ChatGPT, Gemini) and saves them to your local storage. You can export your chat history as a Markdown file at any time.
 
----
-
 ## 🌟 Features
 
 * **Auto Logging**: Automatically captures messages sent via `Enter` key or "Send" button click.
@@ -18,6 +16,12 @@
     * 🗑️ **Clear**: One-click to wipe local history.
 
 ## 🛠️ Installation
+
+### Option 1: Greasy Fork
+
+Install directly via [Greasy Fork](https://greasyfork.org/zh-CN/scripts/564658-llm-chat-logger).
+
+### Option 2: Manual Installation
 
 1.  Install the [Tampermonkey](https://www.tampermonkey.net/) extension for your browser.
 2.  Create a new script in Tampermonkey.
@@ -30,8 +34,8 @@
 2.  Chat as usual. The script runs in the background.
 3.  To manage your data, click the **Tampermonkey icon** in your browser toolbar.
 4.  You will see two menu options:
-    * `📥 Export chat records` - Downloads a `.md` file.
-    * `🗑️ Clear chat records` - Deletes all saved logs.
+    * `📥 Export chat records`: Downloads a `.md` file.
+    * `🗑️ Clear chat records`: Deletes all saved logs.
 
 ## ⚙️ Configuration (Advanced)
 
@@ -55,11 +59,13 @@ const SITE_CONFIG = {
 };
 ```
 
+---
+
 <div id="chinese"></div>
 
-# 🤖 LLM Chat Logger
+# 🤖 LLM 聊天记录备份
 
-**LLM Chat Logger** 是一个油猴 (Tampermonkey) 脚本。它可以自动记录你在 LLM 平台（ChatGPT, Gemini）发送的消息，并将其保存在浏览器的本地存储中。你可以随时将聊天记录导出为 Markdown 文档。
+**LLM 聊天记录备份** 是一个油猴 (Tampermonkey) 脚本。它可以自动记录你在 LLM 平台（ChatGPT, Gemini）发送的消息，并将其保存在浏览器的本地存储中。你可以随时将聊天记录导出为 Markdown 文档。
 
 ## 🌟 功能特性
 
@@ -71,6 +77,12 @@ const SITE_CONFIG = {
     * 🗑️ **清空记录**：一键删除本地所有记录。
 
 ## 🛠️ 安装方法
+
+### 方法一：Greasy Fork 安装
+
+前往 [Greasy Fork](https://greasyfork.org/zh-CN/scripts/564658-llm-chat-logger) 页面直接安装。
+
+### 方法二：手动安装
 
 1.  安装 [Tampermonkey](https://www.tampermonkey.net/) 插件。
 2.  在插件管理面板中创建“新脚本”。
