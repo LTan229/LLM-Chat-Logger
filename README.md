@@ -1,6 +1,6 @@
 # LLM Chat Logger
 
-[English](#english) | [中文说明](#中文说明)
+[English](#english) | [中文说明](#chinese)
 
 <div id="english"></div>
 
