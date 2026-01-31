@@ -2,7 +2,9 @@
 
 [English](#english) | [中文说明](#中文说明)
 
-**AI Chat Logger** is a userscript that runs in your browser via Tampermonkey. It automatically records your prompts sent to LLM platforms (ChatGPT, Gemini) and saves them to your local storage. You can export your chat history as a Markdown file at any time.
+<div id="english"></div>
+
+**LLM Chat Logger** is a userscript that runs in your browser via Tampermonkey. It automatically records your prompts sent to LLM platforms (ChatGPT, Gemini) and saves them to your local storage. You can export your chat history as a Markdown file at any time.
 
 ---
 
@@ -53,9 +55,11 @@ const SITE_CONFIG = {
 };
 ```
 
+<div id="chinese"></div>
+
 # 🤖 LLM Chat Logger
 
-**AI Chat Logger** 是一个油猴 (Tampermonkey) 脚本。它可以自动记录你在 LLM 平台（ChatGPT, Gemini）发送的消息，并将其保存在浏览器的本地存储中。你可以随时将聊天记录导出为 Markdown 文档。
+**LLM Chat Logger** 是一个油猴 (Tampermonkey) 脚本。它可以自动记录你在 LLM 平台（ChatGPT, Gemini）发送的消息，并将其保存在浏览器的本地存储中。你可以随时将聊天记录导出为 Markdown 文档。
 
 ## 🌟 功能特性
 
