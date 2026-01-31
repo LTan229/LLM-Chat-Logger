@@ -1,17 +1,20 @@
 // ==UserScript==
 // @name         LLM Chat Logger
-// @namespace    http://tampermonkey.net/
+// @name:zh-CN   LLM 聊天记录备份
+// @namespace    https://github.com/LTan229/LLM-Chat-Logger
 // @version      1.0
-// @description  Record chat input, support export to Markdown and clear history.
+// @description  Record your GEMINI and ChatGPT chat input, support export to Markdown.
+// @description:zh-CN 自动记录 ChatGPT 和 Gemini 的聊天输入，并支持导出为 Markdown。
 // @author       LTan229
 // @match        https://chatgpt.com/*
-// @match        https://chatgpt.com/c/*
-// @match        https://gemini.google.com/app
-// @match        https://gemini.google.com/app/*
+// @match        https://gemini.google.com/*
 // @grant        GM_setValue
 // @grant        GM_getValue
 // @grant        GM_registerMenuCommand
 // @run-at       document-idle
+// @license      MIT
+// @homepageURL  https://github.com/LTan229/LLM-Chat-Logger
+// @supportURL   https://github.com/LTan229/LLM-Chat-Logger/issues
 // ==/UserScript==
 
 (function() {
