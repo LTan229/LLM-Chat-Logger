@@ -21,7 +21,7 @@
 
 1.  Install the [Tampermonkey](https://www.tampermonkey.net/) extension for your browser.
 2.  Create a new script in Tampermonkey.
-3.  Copy and paste the code from `script.js`.
+3.  Copy and paste the code from `LLMChatLogger.user.js`.
 4.  Save the script.
 
 ## 📖 Usage
@@ -74,7 +74,7 @@ const SITE_CONFIG = {
 
 1.  安装 [Tampermonkey](https://www.tampermonkey.net/) 插件。
 2.  在插件管理面板中创建“新脚本”。
-3.  将代码复制粘贴进去并保存。
+3.  将文件 `LLMChatLogger.user.js` 全部复制粘贴进去并保存。
 
 ## 📖 使用指南
 
