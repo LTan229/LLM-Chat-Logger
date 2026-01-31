@@ -7,7 +7,9 @@
 // @description:zh-CN 自动记录 ChatGPT 和 Gemini 的聊天输入，并支持导出为 Markdown。
 // @author       LTan229
 // @match        https://chatgpt.com/*
-// @match        https://gemini.google.com/*
+// @match        https://chatgpt.com/c/*
+// @match        https://gemini.google.com/app
+// @match        https://gemini.google.com/app/*
 // @grant        GM_setValue
 // @grant        GM_getValue
 // @grant        GM_registerMenuCommand
